@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#game-name{
+ background-color: rgb(4, 4, 49);   
+color: white;
+height: 2rem;
+text-align: center;
+line-height: 2rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 40px;
+   
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-sizing: border-box;
+    
+
+
+}
+img:hover{
+    
+    border: 5px solid black;
+}
+#scores{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5.7rem;
+    font-size: 1.8rem;
+}
+#players{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 3rem;
+
+
+}
+#msg{
+    margin-top: 2rem;
+}
+#desc{
+    background-color: rgb(3, 3, 42);
+     color: white;
+     display: inline;
+     text-align: center;
+     line-height: 3.5rem;
+     padding: 1rem;
+    border-radius: 1rem; 
+}
+
